@@ -33,7 +33,23 @@ width: 100px;
     height: 40px;
 width: 140px;
     }
-    .my-button--lg{
-        height: 60px;
+.my-button--lg{
+    height: 60px;
         width: 180px;
-        }
+    }
+.my-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.my-button--bordered:disabled {
+    background-color: #f2f2f2;
+    border-color: #d9d9d9;
+    color: #a6a6a6;
+}
+.my-button--primary:disabled {
+    background-color: #d9d9d9;
+    color: #ffffff;
+}
+* {
+    font-family: 'Inter', sans-serif;
+}

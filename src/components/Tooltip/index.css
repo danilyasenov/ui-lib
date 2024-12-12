@@ -1,0 +1,55 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+.TooltipWrapper {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+
+.Tooltip {
+    position: absolute;
+    background-color:#006FEE;
+    color: rgb(250, 250, 250);
+    padding: 5px 10px;
+    border-radius: 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.TooltipWrapper:hover .Tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Позиции подсказки */
+.Tooltip--top {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.Tooltip--bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+.Tooltip--left {
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+.Tooltip--right {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}

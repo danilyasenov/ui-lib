@@ -1,0 +1,36 @@
+
+.input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    outline: none;
+    color: black;
+  }
+  
+  .input.danger {
+    border: 1px solid red;
+    color: red;
+  }
+  
+  .input:focus {
+    border: 1px solid #4A90E2;
+    color:#4A90E2;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 4px;
+    color: black;
+  }
+  
+  .label.danger {
+    color: red;
+  }
+  .input-container:focus-within .label {
+    color: #4A90E2; /* Цвет текста label при фокусе на input */
+}
+* {
+    font-family: 'Inter', sans-serif;
+}

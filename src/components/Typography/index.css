@@ -1,0 +1,16 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+.Typography{
+    color:black;
+    text-indent: 20px;
+}
+.Typography--md{
+    font-size: 14px;
+}
+.Typography--sm{
+    font-size: 10px;
+}
+.Typography--lg{
+    font-size: 25px;
+}
