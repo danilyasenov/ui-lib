@@ -6,24 +6,24 @@
 }
 
 .my-button--bordered:hover{
-    background-color: rgb(0, 137, 0);
+    background-color: #4A90E2;
     color:white;
 }
 
 .my-button--primary:hover{
-    background-color: White;
-    color:black;
-    border: 1px solid #06b106;
+    background-color: white;
+border: solid 1px #4A90E2;
+color: #4A90E2
 }
 
-.my-button--primary{
-background-color: #06b106;
-border: none;
-color: white
-}
 .my-button--bordered{
-    background-color: White;
-border: 1px solid #06b106;
+background-color: white;
+border: solid 1px #4A90E2;
+color: #4A90E2
+}
+.my-button--primary{
+    background-color: #4A90E2;
+    color:white;
 }
 .my-button--sm{
 height: 30px;

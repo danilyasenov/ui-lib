@@ -1,22 +1,13 @@
+import React from 'react';
 import './index.css';
 
-const Tooltip = (props) => {
-    const {
-        text = 'tip',
-        position = 'top',
-        children,
-    } = props;
-
-    const className = `Tooltip Tooltip--${position}`;
-    
-    return (
-        <div className="TooltipWrapper">
-            <span className={className}>
-                {text}
-            </span>
-            {children}
-        </div>
-    );
+const Tooltip = ({ text, children }) => {
+  return (
+    <div className="tooltip-container">
+      {children}
+      <div className="tooltip-content">{text}</div>
+    </div>
+  );
 };
 
 export default Tooltip;

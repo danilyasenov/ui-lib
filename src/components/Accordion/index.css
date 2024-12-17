@@ -1,9 +1,10 @@
 .Accordion {
-    border: 1px solid #ddd;
+    background-color: NOne;
     border-radius: 4px;
     margin: 10px 0;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
+    
 }
 
 .AccordionHeader {
@@ -11,15 +12,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color: #f5f5f5;
+    background-color: white;
     cursor: pointer;
     user-select: none;
+    font-weight: 900;
 }
 
 .AccordionHeader h3 {
     margin: 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .AccordionHeader span {
@@ -30,5 +32,5 @@
 .AccordionContent {
     padding: 10px 15px;
     background-color: #fff;
-    border-top: 1px solid #ddd;
+    border: none;
 }

@@ -12,5 +12,6 @@
     font-size: 10px;
 }
 .Typography--lg{
-    font-size: 25px;
+    font-size: 50px;
+    font-weight: 900;
 }
